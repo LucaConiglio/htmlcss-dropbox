@@ -49,9 +49,6 @@ nav div a{
 .nav-right *{
     padding: 0 15px ;
 }
-.nav-right button{
-      
-}
 .button-header{
     border: none;
     padding: 5px 10px;
@@ -91,7 +88,7 @@ header .big-container{
     display: flex;
 }
 .icon-header-left i{
-    margin-top: 5rem;
+    margin-top: 7rem;
     font-size: 40px;
 }
 .container-header{
