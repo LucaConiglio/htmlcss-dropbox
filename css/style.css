@@ -10,10 +10,18 @@ h1{
 }
 h2{
     font-size: 35px;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 h3{
     font-size: 25px;
+    margin-bottom: 1rem;
+}
+h4{
+    margin-bottom: 1rem;
+}
+
+h5{
+    margin-bottom: 0.4rem;
 }
 nav{
     height: 60px;
@@ -101,9 +109,59 @@ main{
     margin: auto;
     padding: 50px 0;
 }
-.container .checkbox input{
-    padding-left: 2rem;
+.checkbox{
+    margin-bottom: 2rem;
 }
 #right-checkbox{
     margin-left: 3rem;
+}
+.icona-top-card{
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    padding: 10px 0;
+}
+.card{
+    width: 30%;
+    flex-shrink: 0;
+    border: 1px solid lightgray;
+}
+.in-card{
+    padding: 1.5rem 1rem 2rem 1rem;
+}
+.span-mensile-card{
+    color: lightgray;
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+.icona-card{
+    padding: 0.6rem 0;
+}
+.button-card{
+    margin: 2rem 0;
+}
+.button-card button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: rgb(0, 97, 255);
+    color: whitesmoke;
+}
+.line-gray{
+    width: 20%;
+    border-bottom: 1px solid lightgray;
+    margin: 2rem 0;
+}
+.spunte-card{
+    padding: 0.6rem 0;
+    display: flex;
+    justify-content: baseline;
+}
+.spunte-card i{
+    color: rgb(37, 59, 252);
+    display: flex;
+    justify-content: baseline;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
 }
