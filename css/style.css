@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1{
+    font-size: 80px;
+    padding: 0 0 50px;
+}
+h2{
+    font-size: 35px;
+    padding-bottom: 2rem;
+}
+h3{
+    font-size: 25px;
+}
+nav{
+    height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+nav div a{
+    text-decoration: none;
+    color: black;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+.nav-left *{
+    padding: 0 15px ;
+}
+.nav-right *{
+    padding: 0 15px ;
+}
+.nav-right button{
+      
+}
+.button-header{
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(43, 43, 253);
+    color: whitesmoke;
+    margin-right: 15px;
+}
+header .big-container{
+    background-color: rgb(180, 208, 231);
+    margin-top: 60px;
+}
+.container-header{
+    width: 1150;
+    margin: auto;
+}
+.column-left{
+    width: 25%;
+    flex-shrink: 0;
+}
+.column-right{
+    width: 75%;
+    flex-shrink: 0;
+}
+.column-right img{
+   width: 100%;
+}
+.column-left button{
+    margin: 2rem 0 2rem;
+    padding: 8px;
+}
+.column-left a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 4rem;
+}
+.columns-container{
+    display: flex;
+}
+.icon-header-left i{
+    margin-top: 5rem;
+    font-size: 40px;
+}
+.container-header{
+    position: relative;
+    top: 80px;
+}
+main .big-container{
+    margin: auto;
+}
+main{
+    margin-top: 80px;
+}
+.container{
+    width: 920px;
+    margin: auto;
+    padding: 50px 0;
+}
+.container .checkbox input{
+    padding-left: 2rem;
+}
+#right-checkbox{
+    margin-left: 3rem;
+}
