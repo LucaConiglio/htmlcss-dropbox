@@ -207,7 +207,7 @@ main{
     padding: 3rem;
 }
 .img-block{
-    width: 100%;
+    max-width: 100%;
     display: block;
 }
 .button-white{
@@ -238,7 +238,7 @@ main{
     padding-bottom: 6rem;
 }
 .box-33{
-    width: 33.33%;
+    max-width: 33.33%;
     flex-shrink: 0;
     aspect-ratio: 1 / 1;
 
@@ -248,7 +248,7 @@ main{
     padding: 3rem;
 }
 .box-50{
-    width: 50%;
+    max-width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,7 +256,7 @@ main{
     
 }
 .img-block-50{
-    width: 50%;
+    max-width: 50%;
 }
 #first-green{
     background-color:rgb(162, 211, 155) ;
@@ -309,12 +309,52 @@ section .big-container{
     align-self: center;
 }
 .h2-dom{
-    margin-top: 4rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
 }
 .box-2rem-bordertop{
     padding: 2rem 0;
-    border: 1px solid;
+    
 }
 .line-grey-long{
     border-top: 1px solid lightgray;
+}
+#chevron{
+    padding-right: 2rem;
+}
+
+footer{
+    padding: 5rem 0 2rem 0;
+    background-color: black;
+    color: white;
+}
+.box-15{
+    max-width: 15%;
+    flex-shrink: 0;
+    padding-bottom: 3rem;
+
+}
+.container-footer{
+    max-width: 1150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.box-15 ul{
+    list-style: none;
+    padding-top: 0.3rem;
+}
+.box-15 a{
+    text-decoration: none;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 0.5rem 0;
+}
+.box-15 .line-gray{
+    width:70% ; 
+    padding: 3rem 0 2rem 0;
+}
+.box-15 span{
+    padding: 0 5px;
 }
