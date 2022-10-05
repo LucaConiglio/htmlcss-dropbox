@@ -246,9 +246,10 @@ main{
 .designit-center{
     background-color: rgb(245, 245, 245);
     padding: 3rem;
+    overflow: auto;
 }
 .box-50{
-    max-width: 50%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -256,11 +257,11 @@ main{
     
 }
 .img-block-50{
-    max-width: 50%;
+    width: 50%;
 }
 #first-green{
     background-color:rgb(162, 211, 155) ;
-    border: 6px solid rgb(209, 233, 205);
+    border: 10px solid rgb(209, 233, 205);
 }
 .box-33 .box-50 img{
     filter: invert(1);
