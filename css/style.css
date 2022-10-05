@@ -373,6 +373,7 @@ footer{
     transition: 5s;
     width: 100%;
     display: block;
+    padding: 1rem;
 }
 .box-2rem-bordertop:focus{
     background-color: lightgray;
@@ -402,7 +403,10 @@ footer{
     right: 2px;
     border: none;
     background-color: lightgray;
+    color: red;
+    scale: 1;
     font-size: 16px;
+
 }
 
 .box-2rem-bordertop:focus .button-close{
